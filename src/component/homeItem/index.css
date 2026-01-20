@@ -1,0 +1,22 @@
+.itemContainer{
+    width:18vw;
+    height: 22vw;
+    background-color: rgba(91, 91, 91, 0.156);
+    overflow: hidden;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: #fff 0px 0px 2px 0px;
+}
+
+.itemTop{
+    padding: 5px;
+    height: 60%;
+}
+.itemBottom{
+    text-align: center;
+}
+
+.itemContainer img{
+    width: 100%;
+    height: 100%;
+}
