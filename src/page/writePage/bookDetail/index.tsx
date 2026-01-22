@@ -22,6 +22,6 @@ export function BookDetail(){
         <div className="content">
             {bookConten?.content as String}
         </div>
-        <div>{bookConten && getDate(bookConten!.name)}</div>
+        <div className="time">{bookConten && getDate(bookConten!.name)}</div>
     </div>
 }

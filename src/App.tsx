@@ -6,7 +6,7 @@ import bg from "../public/img/bg.jpg"
 import { Item, type IItem } from './component/homeItem';
 
 function App() {
-  const [beTogetherDay, setBeTogetherDay] = useState(1027);
+  const [beTogetherDay] = useState(1027);
   const iconConfig:IItem[] = [
     {
       text:"纪念日",

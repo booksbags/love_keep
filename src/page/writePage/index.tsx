@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import "./index.css"
-import { getFileContent, type IFileContent } from "../../utils/request";
+import { getFileContent } from "../../utils/request";
 import { useNavigate } from "react-router";
 export function WritePage(){
     const [books, setBooks] = useState<any[]>([]);
@@ -32,12 +32,12 @@ export function WritePage(){
                     )
                 })
             }
-            {/* <form>
-                <div className="write">
-                    <textarea maxLength={500} minLength={300}/>
-                </div>
-                <button>提交</button>
-            </form> */}
+            <div 
+                className="addBook"
+                onClick={()=>{
+                    navigater("/addBook")
+                }}
+            >+</div>
         </div>
     )
 }

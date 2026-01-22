@@ -20,7 +20,7 @@
   padding: 10px;
   background:linear-gradient(to bottom, #e0e0e0, #fff);
 }
-div, span, img{
+div, span, img, textarea{
   box-sizing: border-box;
 }
 

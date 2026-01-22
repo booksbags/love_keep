@@ -1,4 +1,17 @@
 .bookDetail{
     width: 100vw;
     height: 100vh;
+    padding: 10px;
+}
+.bookDetail .time{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
+}
+.bookDetail .content{
+    font-size: 18px;
+    word-break: break-all;
+    height: 60vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px black;
 }

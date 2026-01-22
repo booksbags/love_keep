@@ -1,0 +1,32 @@
+.addBook{
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+}
+
+.write{
+    width: 100%;
+    height: 50vh;
+}
+.write textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    display: block;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.addBook button{
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+    background-color: #008c8c;
+    margin-top: 15px;
+}
