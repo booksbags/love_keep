@@ -1,6 +1,14 @@
 {
   "name": "爱的小屋",
-  "display": "standalone",
+  "short_name": "爱的小屋", 
+  "lang": "zh-CN", 
+  "display": "standalone", 
+  "start_url": "/love_keep/dist", 
+  "scope": "/love_keep/dist", 
+  "background_color": "#ffffff", 
+  "theme_color": "#ff6781", 
+  "description": "爱的小屋 - 专属的温馨空间",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "./love_icon.png",
