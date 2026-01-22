@@ -18,4 +18,4 @@ export const router = createBrowserRouter([
         path:"/addBook",
         element:<AddBook></AddBook>
     }
-])
+],{basename:"/love_keep/dist/"})
